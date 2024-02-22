@@ -1,0 +1,85 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #e57373;
+  background-image: url(img/fancy.jpg);
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header .judul {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0; /* Menghapus margin bawah pada judul */
+}
+
+.header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: salmon;
+  display: block; /* Mengubah link menjadi blok */
+  padding: 10px 15px; /* Memberikan padding pada link */
+}
+
+.header a:hover {
+  background-color: #1976d2;
+  color: grey;
+}
+
+.hero {
+  height: 800px;
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+  background-position: 0 -200px;
+  border-top: 5px solid lightskyblue;
+  border-bottom: 5px solid lightskyblue;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #880e4f;
+  padding: 20px;
+}
+
+.footer.copy {
+  color: #d32f2f;
+  text-align: center; /* Memperbaiki penulisan 'text-algin' menjadi 'text-align' */
+  font-size: 12px;
+}

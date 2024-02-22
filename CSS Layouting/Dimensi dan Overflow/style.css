@@ -1,0 +1,12 @@
+.satu {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
+
+.dua {
+  width: 200px;
+  height: 200px;
+  background-color: darkpurple;
+  overflow: auto;
+}

@@ -1,0 +1,14 @@
+.navigation {
+  background-color: pink;
+  display: inline-block;
+}
+
+.main {
+  background-color: yellow;
+}
+
+h1,
+h2,
+.main p {
+  background-color: lightblue;
+}
